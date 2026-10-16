@@ -12,7 +12,8 @@
 </p>
 
 <p align="center">
-  <img src="docs/konzept.jpg" alt="Konzept der Rocker-Leuchte (links) und der Art-Deco-Variante (rechts)" width="800">
+  <img src="docs/v1_eingeschaltet.png" alt="Rocker-Leuchte V1 eingeschaltet" width="400">
+  <img src="docs/v1_explosion.png" alt="Rocker-Leuchte V1 Explosionsansicht" width="430">
 </p>
 
 ---
@@ -50,12 +51,12 @@ Gesteuert wird alles von einem **ESP32 mit WLED**: Farben, Effekte und Helligkei
 
 ## Projektstand
 
-- [x] Konzept und Design (siehe Bild oben)
-- [ ] STL-Dateien Gehäuse V1 Rocker
-- [ ] STL-Dateien Gitarrenhals
-- [ ] Logo-Lithophan-Platte (Megawatt als erstes Logo)
+- [x] Konzept und Design ([Konzeptbild](docs/konzept.jpg))
+- [x] STL-Dateien Gehäuse V1 Rocker
+- [x] STL-Dateien Gitarrenhals
+- [x] Logo-Lithophan-Platte (Megawatt als erstes Logo)
 - [ ] STL-Dateien V2 Art-Deco mit Magnet-Front
-- [ ] Generator-Skript: eigenes Logo → Lithophan-Platte
+- [x] Generator-Skript: eigenes Logo → Lithophan-Platte
 - [ ] WLED-Konfiguration und Verdrahtung
 - [ ] Bauanleitung mit Fotos
 
@@ -65,7 +66,8 @@ Gesteuert wird alles von einem **ESP32 mit WLED**: Farben, Effekte und Helligkei
 
 | Ordner | Inhalt |
 |---|---|
-| [`stl/`](stl/) | Druckdateien (folgen) |
+| [`stl/`](stl/) | Druckdateien, Kleinteile und Zusammenbau |
+| [`cad/`](cad/) | Python-Quellcode der Teile und Logo-Generator |
 | [`firmware/`](firmware/) | WLED-Einrichtung und Pinbelegung |
 | [`docs/`](docs/) | Bilder und Anleitungen |
 

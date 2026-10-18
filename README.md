@@ -9,6 +9,7 @@
   <img src="https://img.shields.io/badge/Status-in_Arbeit-F0A030?style=flat-square" alt="Status: in Arbeit">
   <img src="https://img.shields.io/badge/ESP32-WLED-E7352C?style=flat-square&logo=espressif&logoColor=white" alt="ESP32 + WLED">
   <img src="https://img.shields.io/badge/Drucker-Bambu_Lab_P2S-00AE42?style=flat-square" alt="Bambu Lab P2S">
+  <img src="https://img.shields.io/badge/Lizenz-CC_BY--NC--SA_4.0-lightgrey?style=flat-square" alt="Lizenz: CC BY-NC-SA 4.0">
 </p>
 
 <p align="center">
@@ -76,5 +77,13 @@ Gesteuert wird alles von einem **ESP32 mit WLED**: Farben, Effekte und Helligkei
 ## Hinweis zu Logos
 
 Band-Logos sind geschützt. Lade hier nur Logos hoch, die du verwenden darfst – für deine eigene Leuchte zu Hause kannst du mit dem Generator jedes Logo selbst in eine Platte umwandeln.
+
+---
+
+## Lizenz
+
+Dieses Projekt steht unter der [Creative Commons Namensnennung – Nicht kommerziell – Weitergabe unter gleichen Bedingungen 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de) (CC BY-NC-SA 4.0). Du darfst es nachbauen, verändern und teilen, solange du Lötlicht nennst, es nicht kommerziell nutzt und Abwandlungen unter derselben Lizenz weitergibst. Den vollständigen Text findest du in [`LICENSE`](LICENSE).
+
+Die Lizenz gilt für das eigene Design, den Code und die Anleitungen. Band-Logos wie das Megawatt-Logo in `stl/v1_logo_megawatt.stl` gehören ihren jeweiligen Rechteinhabern und sind davon ausgenommen.
 
 <p align="center"><i>Mehr Projekte auf TikTok: <a href="https://www.tiktok.com/@loetlicht">@loetlicht</a> 🔥</i></p>

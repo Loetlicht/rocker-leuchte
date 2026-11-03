@@ -372,3 +372,17 @@ def print_pose(m, face):
         pass
     (x0, y0, z0), (x1, y1, z1) = [np.array(v) for v in (m.bounding_box()[:3], m.bounding_box()[3:])]
     return m.translate([-(x0 + x1) / 2, -(y0 + y1) / 2, -z0])
+
+
+# ------------------------------------------------------------------ Frontplatte zweiteilig (ohne Stützen druckbar)
+Y_SPLIT = FRONT_SKIN + GROOVE      # 5.8 mm: Trennung genau an der Nut-Rückseite
+
+
+def frontplatte_vorne():
+    """Sichtseite + offene Nut (Nut ist eine Tasche nach hinten, kein Hohlraum)."""
+    return frontplatte() ^ cube(-200, 200, -1, Y_SPLIT, -200, 300)
+
+
+def nutrahmen():
+    """Hintere Haltekante (2,2 mm) – wird mit denselben 8 Schrauben mitverschraubt."""
+    return frontplatte() ^ cube(-200, 200, Y_SPLIT, FRONT_T + 1, -200, 300)

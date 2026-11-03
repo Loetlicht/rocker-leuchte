@@ -17,7 +17,9 @@ def save(m, name, face):
 
 parts = {}
 which = sys.argv[1:] or ["front", "shell", "lid", "base", "neck", "cover"]
-if "front" in which: parts["front"] = save(frontplatte(), "v1_frontplatte", "front")
+if "front" in which:
+    parts["front"] = save(frontplatte_vorne(), "v1_frontplatte_vorne", "front")
+    parts["ring"] = save(nutrahmen(), "v1_frontplatte_nutrahmen", "front")
 if "shell" in which: parts["shell"] = save(rueckschale(), "v1_rueckschale", "back")
 if "lid" in which:   parts["lid"] = save(sockel_deckel(), "v1_sockel_deckel", "bottom")
 if "base" in which:  parts["base"] = save(sockel_unterteil(), "v1_sockel_unterteil", "bottom")
